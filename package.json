@@ -13,7 +13,6 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava",
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
   },
@@ -25,15 +24,14 @@
   "keywords": [
     "alfred",
     "workflow",
-    "alfy"
+    "alfy",
+    "now",
+    "zeit",
+    "deployment"
   ],
   "dependencies": {
     "alfy": "^0.6.0",
     "date-format": "^1.2.0"
   },
-  "devDependencies": {
-    "alfy-test": "^0.3.0",
-    "ava": "^0.18.0",
-    "xo": "^0.17.0"
-  }
+  "devDependencies": {}
 }
