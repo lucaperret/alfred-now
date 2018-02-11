@@ -1,0 +1,39 @@
+{
+  "name": "alfred-now",
+  "version": "0.0.0",
+  "description": "Use Now within Alfred",
+  "license": "MIT",
+  "repository": "lucaperret/alfred-now",
+  "author": {
+    "name": "Luca Perret",
+    "email": "perret.luca@gmail.com",
+    "url": "https://github.com/lucaperret"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "date-format": "^1.2.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
