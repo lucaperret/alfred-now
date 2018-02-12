@@ -1,6 +1,6 @@
 # alfred-now
 
-> Use [Now](https://zeit.co/now) within Alfred
+> Use [▲ZEIT now](https://zeit.co/now) within Alfred
 
 
 ## Install
